@@ -7,3 +7,6 @@ This technique uses an L2-Wasserstein distance to optimize style transfer from o
 Unlike the Gatys approach, this technique does not use a combination of content loss and style loss. There is only one loss function - the L2-Wasserstein metric.
 
 To simplify calculation of the metric, this technique assumes that the activations input into the loss function are multivariate Gaussian distributions modeled by the first two moments. This allows for a very straightforward calculation of the loss.
+
+![wave](https://github.com/kheyer/ML-DL-Projects/blob/master/Wasserstein%20Style%20Transfer/styles/wave_comp.png)
+![monet](https://github.com/kheyer/ML-DL-Projects/blob/master/Wasserstein%20Style%20Transfer/styles/monet_comp.png)
